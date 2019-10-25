@@ -62,9 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\itsukiTest.cs" />
-    <Compile Include="Assets\Scripts\ShumaiTest.cs" />
-    <Compile Include="Assets\Scripts\WebCamController.cs" />
+    <Compile Include="Assets\Scripts\Itsuki\itsukiTest.cs" />
+    <Compile Include="Assets\Scripts\Shumai\ShotScript.cs" />
+    <Compile Include="Assets\Scripts\Shumai\ShumaiTest.cs" />
+    <Compile Include="Assets\Scripts\Shumai\WebCamController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/shumashimizu/C#/Unity/TPAR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
