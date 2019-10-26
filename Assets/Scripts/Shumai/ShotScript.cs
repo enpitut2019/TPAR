@@ -7,24 +7,30 @@ public class ShotScript : MonoBehaviour
     RaycastHit hit;
     float time;
     bool flag;
+    //public GameObject ball;
 
     // Start is called before the first frame update
     void Start()
     {
         time = 0;
-        flag = true;
+        flag = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-
-        //if()
-
-
-        //Debug.Log(time);
-        Shot();
+        if (flag)
+        {
+            Shot();
+            flag = false;
+            Debug.Log(time);
+            time = 0;
+            
+        }
+        else
+        {
+            if ((time += Time.deltaTime) > 1) { flag = true; }
+        }
     }
 
     void Shot()
