@@ -7,7 +7,7 @@ public class ShotScript : MonoBehaviour
     RaycastHit hit;
     float time;
     bool flag;
-    //public GameObject ball;
+    public GameObject ball;
 
     // Start is called before the first frame update
     void Start()
@@ -40,8 +40,10 @@ public class ShotScript : MonoBehaviour
         float distance = 100;
         if (Physics.Raycast(ray, out hit, distance))
         {
-            Debug.Log("出発点" + transform.position);
-            Debug.Log("目標点" + hit.point);
+            Instantiate(ball, transform.position, transform.rotation).GetComponent<Rigidbody>().AddForce(transform.forward * 1000);
+            //Debug.Log("出発点" + transform.position);
+            //Debug.Log("目標点" + hit.point);
+
             //Instantiate(sparks, hit.point, Quaternion.identity);
             //if (hit.collider.tag == "Enemy")
             //{

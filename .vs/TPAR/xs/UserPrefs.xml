@@ -2,6 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shumai/ShotScript.cs">
     <Files>
       <File FileName="Assets/Scripts/Shumai/ShotScript.cs" Line="26" Column="15" />
+      <File FileName="Assets/Scripts/Shumai/WebCamController.cs" Line="19" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
