@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Shumai/ShotScript.cs">
     <Files>
       <File FileName="Assets/Scripts/Shumai/ShotScript.cs" Line="26" Column="15" />
-      <File FileName="Assets/Scripts/Shumai/WebCamController.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/Shumai/WebCamController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3573b896-c9bb-4006-8fb3-150867c7bae7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e2e0a47b-e59a-4521-8285-902126b1808e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
